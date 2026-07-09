@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lav&Sec Express — Lavanderia de Autoatendimento em Piracicaba</title>
+<meta name="description" content="Lav&Sec Express — lavanderia de autoatendimento em Piracicaba/SP. Lave e seque suas roupas em até 1h15, com praticidade e qualidade.">
+<style>
+  :root {
+    --verde: #1fb6a4;
+    --azul: #2b8fd6;
+    --texto: #1c2b2a;
+    --fundo-claro: #f4faf9;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--texto);
+    background: #ffffff;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(120deg, var(--verde), var(--azul));
+    color: #fff;
+    padding: 48px 24px 56px;
+    text-align: center;
+  }
+  header h1 {
+    margin: 0 0 8px;
+    font-size: 2.2rem;
+    letter-spacing: 0.5px;
+  }
+  header p {
+    margin: 0;
+    font-size: 1.1rem;
+    opacity: 0.95;
+  }
+  main {
+    max-width: 720px;
+    margin: -32px auto 0;
+    padding: 0 20px 40px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+    padding: 28px 28px 32px;
+    margin-bottom: 24px;
+  }
+  .card h2 {
+    margin-top: 0;
+    font-size: 1.3rem;
+    color: var(--verde);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  @media (max-width: 560px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+  .item-title {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .precos-tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+  .precos-tabela td {
+    padding: 8px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  .precos-tabela td:last-child {
+    text-align: right;
+    font-weight: 600;
+  }
+  .redes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 12px;
+  }
+  .redes a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 24px;
+    background: var(--fundo-claro);
+    color: var(--texto);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: 1px solid #e0efec;
+  }
+  .redes a:hover { background: #e6f6f3; }
+  .whatsapp-cta {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 14px 28px;
+    border-radius: 30px;
+    background: #25D366;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  footer {
+    text-align: center;
+    color: #7a8a89;
+    font-size: 0.85rem;
+    padding: 24px 20px 40px;
+  }
+  footer a { color: var(--azul); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Lav&amp;Sec Express</h1>
+  <p>Lavanderia de autoatendimento em Piracicaba/SP</p>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>Sobre nós</h2>
+    <p>
+      A Lav&amp;Sec Express é a lavanderia de autoatendimento ideal para quem busca praticidade
+      e rapidez em Piracicaba. Em apenas 1h15, você pode lavar e secar suas roupas com marcas
+      referência em qualidade, deixando tudo cheiroso e macio. Nosso ambiente é limpo, seguro e
+      moderno, pensado para facilitar sua rotina sem abrir mão da excelência no cuidado das roupas.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Onde estamos</h2>
+    <div class="grid">
+      <div>
+        <div class="item-title">📍 Endereço</div>
+        Av. Dona Francisca, 333 — Box 03<br>
+        Vila Rezende, Piracicaba/SP<br>
+        CEP 13405-259<br>
+        <small>Dentro do Supermercado Pague Menos da Vila Rezende</small>
+      </div>
+      <div>
+        <div class="item-title">⏰ Horários</div>
+        Segunda a sábado: 08h às 20h<br>
+        Domingos e feriados: 08h às 16h
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>💰 Preços</h2>
+    <table class="precos-tabela">
+      <tr><td>Lavagem</td><td>R$ 19,99</td></tr>
+      <tr><td>Secagem</td><td>R$ 19,99</td></tr>
+    </table>
+    <p style="margin-top:10px; color:#5b6a69;">Pagamento direto no totem de autoatendimento.</p>
+  </div>
+
+  <div class="card">
+    <h2>Fale com a gente</h2>
+    <a class="whatsapp-cta" href="https://wa.me/5519990183752" target="_blank" rel="noopener">
+      💬 Conversar no WhatsApp
+    </a>
+    <div class="redes">
+      <a href="https://www.instagram.com/lavesecexpress/" target="_blank" rel="noopener">📸 Instagram</a>
+      <a href="https://www.facebook.com/lavesecexpress" target="_blank" rel="noopener">👍 Facebook</a>
+      <a href="https://www.google.com/search?q=Lav%26Sec+Express+piracicaba" target="_blank" rel="noopener">⭐ Google</a>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  TASSARA E TASSARA LAVANDERIA LTDA — CNPJ 53.139.710/0001-63<br>
+  Av. Dona Francisca, 333, Box 03, Vila Rezende, Piracicaba/SP — CEP 13405-259
+</footer>
+
+</body>
+</html>
